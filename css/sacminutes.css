@@ -1,0 +1,23 @@
+.center
+{
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 64px;
+    
+}
+.minutes
+{
+    color: black;
+    font-size: 22px;
+    font-family:'montserrat-bold', sans-serif;
+    margin-left:-55%;
+    margin-top: 3%;
+}
+@media only screen and (max-width:767px)
+{
+    .minutes
+    {
+        margin-left: 0%;
+        font-size: 15px;
+    }
+}
