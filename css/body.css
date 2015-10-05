@@ -1,0 +1,63 @@
+* {margin:0; padding: 0;} html, body {height:100%;}
+    /** format elements which have backgrounds parallax **/ 
+.bgParallax
+ {
+     font-family:'montserrat-regular', sans-serif ; 
+     color:#FFF;
+     margin: 0 auto;
+     width: 100%; 
+     max-width: 1920px;
+     position: relative;
+     min-height: 100%; 
+     background-size: cover;
+     background-repeat:no-repeat;
+     background-attachment: fixed; 
+ }
+    /* Define backgrounds of divs */ 
+#aboutus
+{
+    background-image: url(../img/sac.jpg);
+    -webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+    -moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7); 
+    -ms-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+    -o-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+    box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+}
+#mission
+{
+    background-color: lightgreen;
+    padding-bottom: 50px;
+    color: #fff; 
+    -webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+    -moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7); 
+    -ms-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7); 
+    -o-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+    box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7); }
+    /** Format article **/
+.bgParallax article 
+{ 
+    width: 70%;
+    text-align: center;
+    margin:0 auto;
+    padding:20% 0 0; 
+}
+    /** format text **/ 
+article h1 
+{
+    font-size:60px;
+    color: #fff;
+} 
+article p 
+{
+    line-height: 30px;
+    font-size:20px; 
+    margin-top:-20%;
+}
+@media only screen and (max-width: 767px)
+{
+    article h1
+    {
+        font-size: 25px;
+        margin-top: 40%;
+    }
+}
