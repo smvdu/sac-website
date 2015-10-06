@@ -2,7 +2,7 @@
 {
     text-align: center;
     padding-top: 150px;
-    padding-bottom: 64px;
+    padding-bottom: 60px;
     
 }
 .minutes
@@ -13,6 +13,12 @@
     margin-left:-55%;
     margin-top: 3%;
 }
+.const
+{
+    color: black;
+    font-size: 22px;
+    font-family:'montserrat-bold', sans-serif;
+}
 @media only screen and (max-width:767px)
 {
     .minutes
@@ -20,4 +26,10 @@
         margin-left: 0%;
         font-size: 15px;
     }
+    .const
+{
+    color: black;
+    font-size: 15px;
+    margin-left: 0%;
+}
 }
