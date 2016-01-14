@@ -13,6 +13,14 @@
     color: black;
     
 }
+.nav
+{
+    font-family:  'Open Sans', "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+.logo
+{
+    font-family:  'Open Sans', "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
 @media only screen and (max-width:767px)
 {
     .contact

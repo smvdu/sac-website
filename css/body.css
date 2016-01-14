@@ -2,7 +2,7 @@
     /** format elements which have backgrounds parallax **/ 
 .bgParallax
  {
-     font-family:'montserrat-regular', sans-serif ; 
+     font-family: 'Open Sans', "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif; 
      color:#FFF;
      margin: 0 auto;
      width: 100%; 
@@ -13,6 +13,14 @@
      background-repeat:no-repeat;
      background-attachment: fixed; 
  }
+.nav
+{
+    font-family:  'Open Sans', "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+.logo
+{
+    font-family:  'Open Sans', "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
     /* Define backgrounds of divs */ 
 #aboutus
 {

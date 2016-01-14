@@ -11,5 +11,14 @@
     color: black;
     margin-left: 15%;
     margin-top: 3%;
+    padding: 1%
     
+}
+.nav
+{
+    font-family:  'Open Sans', "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+.logo
+{
+    font-family:  'Open Sans', "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
 }

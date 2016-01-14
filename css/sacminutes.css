@@ -5,6 +5,14 @@
     padding-bottom: 60px;
     
 }
+.nav
+{
+    font-family:  'Open Sans', "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+.logo
+{
+    font-family:  'Open Sans', "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
 .minutes
 {
     color: black;
