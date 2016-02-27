@@ -10,7 +10,8 @@
 {
     font-size: 16px;
     margin-top: 2%;
-    color: black;
+    color: white;
+    float: left;
     
 }
 .nav
@@ -30,3 +31,19 @@
     }
 }
     
+.hea{
+    font-size: 10px;
+}
+
+.bhupi{
+    width: 200px;
+    height: 300px;
+    float: right;
+    margin-left: 100px;
+}
+
+
+.abc{
+    display: inline-block;
+    margin-top: 50px;
+}

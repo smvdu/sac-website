@@ -26,7 +26,8 @@
 /* a. General and Common Styles
 /* ------------------------------------------------------------------ */
 
-body { background: white; }
+body { background: white;
+color: white; }
 
 .section-head {
   	padding: 0 4%;
@@ -57,12 +58,16 @@ header {
    width: 100%;
    background:	#003D3D;     
    position: fixed;
-   border-bottom:solid yellow 2px; 
-     border-top:solid yellow 1px;
-    z-index: 999;
+  font-family: 'Varela', sans-serif;
+    z-index: 100000;
     margin-top: 0%;
+    top: 0;
+
 }
 
+header ul{
+  font-size: 15px;
+}
 /* header logo */
 header .logo {
    margin-left: 50px;
@@ -75,6 +80,117 @@ header .logo {
    elements that have been given an explicit position */
     
 }
+
+.shyam{
+    background-image:url(../img/35.jpg);
+   min-height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.shyam:after{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+   background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 132%;
+    content: '';
+}
+.shyam p{
+   z-index: 9999;
+   position: relative;
+   margin-left: 50px;
+}
+.row1{
+    background-color: #003D3D;
+    height: 40px;
+    padding: 10px;
+    height: 63px;
+
+}
+
+.shyam1{
+    background-image:url(../img/pic.jpg);
+   min-height: 500px;
+     background-attachment: fixed;
+    background-size: cover;
+    
+    
+}
+
+.shyam1:after{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+   background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 161%;
+    content: '';
+}
+
+.shyam2{
+    background-image:url(../img/pic2.jpg);
+   min-height: 500px;
+     background-attachment: fixed;
+    background-size: cover;
+    
+    
+}
+
+.shyam2:after{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+   background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 200%;
+    content: '';
+}
+
+.shyam3{
+    background-image:url(../img/sac.jpg);
+   min-height: 500px;
+     background-attachment: fixed;
+    background-size: cover;
+    
+    
+}
+
+.shyam3:after{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+   background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 120%;
+    content: '';
+}
+
+
+
+.center{
+  z-index: 9999;
+  position: relative;
+  font-style: italic;
+  
+}
+.content{
+  margin-left: 60px;
+}
+
+.head p{
+  font-size: 10px;
+  margin-top: 2px;
+  text-align: center;
+  width:100%;
+}
+
 header .logo a {
    display:inline;
    margin: 0;
@@ -674,6 +790,11 @@ ul.features li:nth-child(even) { }
    text-align: center;
 }
 
+a:hover{
+color:white;
+
+
+}
 #subscribe a, #subscribe a:visited  { color: #fff; }
 #subscribe a:hover, #subscribe a:focus { color: #11ABB0; }
 

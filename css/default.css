@@ -183,12 +183,13 @@ body {
 --------------------------------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
-   color: #313131;
-	font-family: 'montserrat-bold', sans-serif;
+   color: #ffffff;
+	font-family: 'Varela', sans-serif;
    font-weight: normal;
+
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
-h1 { font-size: 38px; line-height: 42px; margin-bottom: 12px; letter-spacing: -1px; }
+h1 { font-size: 50px; line-height: 42px; margin-bottom: 12px; letter-spacing: -1px; }
 h2 { font-size: 28px; line-height: 36px; margin-bottom: 6px; }
 h3 { font-size: 22px; line-height: 30px; margin-bottom: 12px; }
 h4 { font-size: 20px; line-height: 30px; margin-bottom: 6px; }
@@ -314,7 +315,7 @@ hr { border: solid #E8E8E8; border-width: 1px 0 0; clear: both; margin: 11px 0 3
 a, a:visited {
    text-decoration: none;
    outline: 0;
-   color: #11ABB0;
+   color: #ffffff;
 
    -webkit-transition: color .3s ease-in-out;
    -moz-transition: color .3s ease-in-out;
